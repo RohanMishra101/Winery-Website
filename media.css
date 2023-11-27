@@ -1,0 +1,292 @@
+@media screen and (max-width:590px) {
+   .upper_bar{
+        justify-content: center;
+        align-items: center;
+        margin: none;
+   }
+   .upper_bar li {
+        margin-right: 15px;
+   }
+   .logo img{
+        width: 70px;
+        height: 70px;
+   }
+   .logo-content h1{
+        font-size: 30px;
+   }
+   .logo-content p.slogan{
+        font-size: 9px;
+   }
+   .Navbar_Section nav li{
+        margin-right: 0px;
+   }
+   .Navbar_Section nav li a{
+        font-size: 12px;
+   }
+
+   .Navbar_Section nav li a:hover {
+        font-size: 13px;
+        color: #e50000;
+    }
+    .container{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .frontPage{
+        flex-direction: column-reverse;
+    }
+    .frontImg{
+        width: 100%;
+        height: 90%;
+    }
+    .info h1{
+        font-size: 50px;
+    }
+    .info p{
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        opacity: 0.8;
+        max-width: 90%;
+        z-index: 100;
+    }
+    .shopBtn{
+        width: 100%;
+    }
+    .custom-shape-divider-bottom-1684663701 svg {
+        width: calc(150% + 1.4px); /* Adjust the width for responsiveness */
+        height: 120px; /* Adjust the height for responsiveness */
+    }
+    .feature-Section{
+        width: 100%;
+    }
+    .feature-header h1{
+        font-size: 50px;
+    }
+    .card-section{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    
+    .card{
+        width: 100%;
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .contact-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* width: 100%; */
+    }
+    .map-section iframe{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .contact{
+        justify-content: center;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+
+    /* About US */
+    .img{
+        width: 100%;
+        /* display: none; */
+    }
+    .aboutus{
+        width: 100%;
+    }
+    .about-conatiner{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .aboutus-des h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .aboutus-des p{
+        max-width: 90%;
+        font-size: 15px;
+        text-emphasis: none;
+    }
+
+
+    /* Services/Shop */
+    .text-service h1{
+        font-size: 30px;
+    }
+    .shop-card{
+        max-width: 90%;
+        /* flex-direction: column; */
+    }
+    .prduct-image{
+        width: 100px;
+        height: 100px;
+    }
+    .product-description{
+        font-size: 12px;
+    }
+    .product-title{
+        font-size: 16px;
+    }
+
+    /* Blog SEction */
+    .comment-section{
+        /* flex-direction: column;  */
+        max-width: 100%;  
+    }
+    .comment-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Map Page */
+    .details h1{
+        font-size: 30px;
+    }
+    .details p{
+        max-width: 90%;
+        font-size: 14px;
+    }
+
+}
+@media screen and (min-width:600px) and ( max-width:1046px) {
+    .upper_bar li {
+        margin-right: 15px;
+    }
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    .logo-content h1{
+        font-size: 50px;
+    }
+    .logo-content p.slogan{
+        font-size: 13px;
+    }
+    .Navbar_Section nav li a{
+        font-size: 16px;
+    }
+    
+    .Navbar_Section nav li a:hover {
+        font-size: 17px;
+        color: #e50000;
+    }
+    .container{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .frontPage{
+        flex-direction: column-reverse;
+    }
+    .frontImg{
+        width: 100%;
+        height: 90%;
+    }
+    .info p{
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        opacity: 0.8;
+        max-width: 90%;
+        z-index: 100;
+    }
+    .shopBtn{
+        width: 90%;
+    }
+
+    .feature-Section{
+        width: 100%;
+    }
+    .feature-header h1{
+        font-size: 50px;
+    }
+    .card-section{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .contact-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* width: 100%; */
+    }
+    .map-section iframe{
+        width: 600px;
+        /* height: 250px; */
+        margin-left: 75px;
+    }
+    .contact{
+        justify-content: center;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+
+    /* About US */
+    .img{
+        display: none;
+    }
+    .aboutus{
+        width: 100%;
+    }
+    .about-conatiner{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .aboutus-des h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .aboutus-des p{
+        max-width: 90%;
+        font-size: 15px;
+        text-emphasis: none;
+    }
+
+    /* Services/shop */
+    .text-service h1{
+        font-size: 30px;
+    }
+    .shop-card{
+        max-width: 90%;
+    }
+    /* Blog SEction */
+    .comment-section{
+        /* flex-direction: column;  */
+        max-width: 100%;  
+    }
+    .comment-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width:960px) and (max-width:1440px) {
+    .container{
+        max-width: 100%;
+        /* outline: 1px dotted red; */
+    }
+    .info p{
+        max-width: 100%;
+    }
+    .frontImg{
+        width: 95%;
+        height: 90%;
+    }
+
+}
+@media screen and (min-width:1440px) and (max-width:1800px) {
+    .container{
+        max-width: 95%;
+    }
+}
